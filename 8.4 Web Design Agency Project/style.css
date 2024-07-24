@@ -20,7 +20,9 @@ footer {
   text-align: right;
   color: midnightblue;
 }
-
+.right > .tile-image{
+  margin-left: 50px;
+}
 .card-title{
   display: block;
 }
@@ -33,12 +35,12 @@ footer {
 .left{
   display: inline;
   float: left;
-  width: 51%;
+  width: 50%;
 }
 .right{
   display: inline;
   float: right;
-  width: 51%;
+  width: 50%;
 }
 .main > div{
   display: inline-block;
