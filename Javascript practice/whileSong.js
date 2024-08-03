@@ -10,9 +10,11 @@ function sing(){
         //     n--;
         // }
         var noun = "bottles";
+        var value = n;
         if(n==1){ noun = "bottle"; }
+        if(n==0){ value = "No more"; }
 
-        console.log(n+" "+noun+" of beer on the wall, "+n+" "+noun+" of beer.");
+        console.log(value+" "+noun+" of beer on the wall, "+ value +" "+noun+" of beer.");
         n--;
         console.log("Take one down and pass it around, "+n+" "+noun+" of beer on the wall.");
     }
