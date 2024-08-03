@@ -10,3 +10,6 @@ function check(name){
         }
     }return ", puta madre!";
 }
+// if((guests.includes(name)) == true){
+//     alert(name+", welcome to the party!");
+// }else{alert(name+", puta madre!");}
