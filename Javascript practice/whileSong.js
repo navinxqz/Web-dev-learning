@@ -1,7 +1,8 @@
 function sing(){
     var n = 9;
+    var noun = "bottles";
 
-    while(n>=0){
+    while(n>0){
         // if(n==0){
         //     console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
         //     n--;
@@ -9,13 +10,12 @@ function sing(){
         //     console.log(n +" bottles of beer on the wall, "+ n+" bottles of beer. Take one down and pass it around, "+(n-1)+" bottles of beer on the wall.");
         //     n--;
         // }
-        var noun = "bottles";
-        var value = n;
         if(n==1){ noun = "bottle"; }
-        if(n==0){ value = "No more"; }
-
-        console.log(value+" "+noun+" of beer on the wall, "+ value +" "+noun+" of beer.");
+        console.log(n+" "+noun+" of beer on the wall, "+n+" "+noun+" of beer.");
         n--;
-        console.log("Take one down and pass it around, "+n+" "+noun+" of beer on the wall.");
+
+        var value = n;
+        if(n==0){ value = "No more"; }
+        console.log("Take one down and pass it around, "+value+" "+noun+" of beer on the wall.");
     }
 }
