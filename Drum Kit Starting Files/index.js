@@ -5,10 +5,7 @@ document.querySelectorAll(".set button")[i].addEventListener("click", function()
     //for clicking the btn
 });
 }
-document.addEventListener("keypress",function(event){
-    makeSound(event.key);
-    //for pressing the keyboard btn
-});
+document.addEventListener("keypress",function(event){ makeSound(event.key); }); //for pressing the keyboard btn
 
 function makeSound(key){
     switch(key){
