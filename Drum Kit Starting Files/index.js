@@ -1,14 +1,13 @@
 
 for(var i=0; i<document.querySelectorAll(".drum").length; i++){
 document.querySelectorAll(".set button")[i].addEventListener("click", function(){
-
-    // this.style.color = "white";
-    var option = this.innerHTML;
-    makeSound(option);
+    makeSound(this.innerHTML);
+    //for clicking the btn
 });
-
+}
 document.addEventListener("keypress",function(event){
     makeSound(event.key);
+    //for pressing the keyboard btn
 });
 
 function makeSound(key){
@@ -46,5 +45,4 @@ function makeSound(key){
         break;
         default: break;
     }
-}
 }
