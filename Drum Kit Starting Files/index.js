@@ -4,7 +4,15 @@ document.querySelectorAll(".set button")[i].addEventListener("click", function()
 
     // this.style.color = "white";
     var option = this.innerHTML;
-    switch(option){
+    makeSound(option);
+});
+
+document.addEventListener("keypress",function(event){
+    makeSound(event.key);
+});
+
+function makeSound(key){
+    switch(key){
         case 'w':
             var tom1 = new Audio('sounds/tom-1.mp3');
             tom1.play();
@@ -37,7 +45,6 @@ document.querySelectorAll(".set button")[i].addEventListener("click", function()
             kick.play();
         break;
         default: break;
-        
     }
-});
+}
 }
