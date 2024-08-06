@@ -1,11 +1,11 @@
 
 for(var i=0; i<document.querySelectorAll(".drum").length; i++){
 document.querySelectorAll(".set button")[i].addEventListener("click", function(){
-    makeSound(this.innerHTML);
-    //for clicking the btn
+    makeSound(this.innerHTML);  //for clicking the btn
 });
 }
-document.addEventListener("keypress",function(event){ makeSound(event.key); }); //for pressing the keyboard btn
+document.addEventListener("keydown",function(event){
+    makeSound(event.key); }); //for pressing the keyboard btn
 
 function makeSound(key){
     switch(key){
