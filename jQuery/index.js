@@ -1,1 +1,1 @@
-$("h1").addClass("big");
+$("h1").addClass("big margin50");

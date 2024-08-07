@@ -1,4 +1,7 @@
 .big{
-    font-size: 10rem;
+    font-size: 5rem;
     color: blueviolet;
+}
+.margin50{
+    margin: 50px;
 }
