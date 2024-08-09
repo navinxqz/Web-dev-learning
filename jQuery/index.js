@@ -1,2 +1,6 @@
 $("h1").addClass("big margin50");
-$("a").attr("href","www.yahoo.com");
+$("h1").click(function(){
+    $("h1").css("color","purple");
+})
+
+$("a").attr("href","https://www.yahoo.com");
