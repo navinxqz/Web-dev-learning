@@ -1,8 +1,4 @@
 $("h1").addClass("big margin50");
-// $("h1").click(function(){
-//     $("h1").css("color","purple");
-// });
-
 $("a").attr("href","https://www.yahoo.com");
 
 // for(var i=0;i<5;i++){
@@ -25,3 +21,7 @@ $("input").keydown(function(event){
 $("h1").on("mouseover",function(){
     $("h1").css("color","pink");
 })
+
+$("button").click(function(){
+    $("h1").slideToggle(); //fadeTOggle
+});
