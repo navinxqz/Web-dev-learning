@@ -14,3 +14,10 @@ $("a").attr("href","https://www.yahoo.com");
 $("button").click(function(){
     $("h1").css("color","pink");
 });
+
+$("input").css("margin-left","50px");
+$("button").css("margin-top","30px");
+
+$("input").keydown(function(event){
+    $("h1").text(event.key);
+})
