@@ -8,6 +8,7 @@
   },
   "author": "Navin",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "inquirer": "^10.1.8",
     "qr-image": "^3.2.0"
